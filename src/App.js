@@ -2,8 +2,8 @@ import myImage from './images/selfie.jpg'
 
 function App() {
 	return (
-		<div className='flex mt-36'>
-			<div className='flex flex-row flex-wrap space-y-24 space-x-6'>
+		<div className='flex justify-center bg-mybackground'>
+			<div className='flex flex-row flex-wrap space-y-24 space-x-6 mt-36'>
 				<div>
 					<div>
 						<img
@@ -15,7 +15,7 @@ function App() {
 						<div className='text-2xl font-heboo font-extrabold ml-14 -mt-28 bg-transparent'>
 							Ajdin Lojić
 						</div>
-						<div className='text-white bg-transparent ml-14 mb-32'>
+						<div className='text-white bg-transparent text-sm ml-16 mb-24'>
 							Web developer
 						</div>
 					</div>
@@ -26,14 +26,14 @@ function App() {
 						<div className='font-bold'>Git:</div>
 						<a
 							href='https://github.com/ajdinl'
-							className='text-mygrey text-sm hover:text-mygreen'
+							className='text-mygrey underline text-sm hover:text-mygreen'
 						>
 							https://github.com/ajdinl
 						</a>
 						<div className='font-bold'>Linkedin:</div>
 						<a
 							href='https://www.linkedin.com/in/ajdin-lojic/'
-							className='text-mygrey text-sm hover:text-myblue'
+							className='text-mygrey underline text-sm hover:text-myblue'
 						>
 							@ajdinlojic
 						</a>

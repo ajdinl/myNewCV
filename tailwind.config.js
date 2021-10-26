@@ -6,9 +6,11 @@ module.exports = {
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
-			colors: { myblue: '#38b6ff', mygreen: '#008037', mygrey: '#5b5e66' },
-			fontFamily: {
-				heboo: ['Heboo'],
+			colors: {
+				mybackground: '#efefef',
+				myblue: '#38b6ff',
+				mygreen: '#008037',
+				mygrey: '#5b5e66',
 			},
 		},
 		variants: {
