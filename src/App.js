@@ -3,7 +3,7 @@ import myImage from './images/selfie.jpg'
 function App() {
 	return (
 		<div className='flex justify-center bg-mybackground'>
-			<div className='flex flex-row flex-wrap space-y-24 space-x-6 mt-36'>
+			<div className='flex flex-row flex-wrap justify-center space-y-24 space-x-6 mt-36'>
 				<div>
 					<div>
 						<img
