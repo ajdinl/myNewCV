@@ -1,1 +1,1 @@
-# Ajdin Lojic new portfolio (CV)
+# Ajdin Lojic new portfolio
