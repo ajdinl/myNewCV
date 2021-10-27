@@ -26,6 +26,8 @@ function App() {
 						<div className='font-bold'>Git:</div>
 						<a
 							href='https://github.com/ajdinl'
+							target='_blank'
+							rel='noopener noreferrer'
 							className='text-mygrey underline text-sm hover:text-mygreen'
 						>
 							https://github.com/ajdinl
@@ -33,6 +35,8 @@ function App() {
 						<div className='font-bold'>Linkedin:</div>
 						<a
 							href='https://www.linkedin.com/in/ajdin-lojic/'
+							target='_blank'
+							rel='noopener noreferrer'
 							className='text-mygrey underline text-sm hover:text-myblue'
 						>
 							@ajdinlojic
